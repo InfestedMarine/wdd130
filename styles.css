@@ -23,6 +23,9 @@ nav a {
     display: block;
     width: fit-content;
     background-color: gold;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(252, 240, 174);
 }
 
 h1 {
