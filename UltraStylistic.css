@@ -1,4 +1,9 @@
-.main-title{
+main {
+    max-width: 840;
+    
+}
+
+.title{
     color:rgba(0, 0, 0, 0.966);
     font-family:'Times New Roman', Times, serif;
     text-align: center;
@@ -17,7 +22,7 @@
     width: auto;
 }
 
-.texts-center {
+.content-center {
     text-align: center;
     display: block;
     margin-left: auto;
@@ -28,4 +33,21 @@
     font-family: 'Courier New', monospace;
     color: rgb(196, 0, 0);   
     text-align: center;
+}
+
+aside {
+    width: 190px;
+    margin: 1px; 
+    border: 5px solid rgba(0, 0, 0, 0.966);
+    padding: 20px;
+    background-color: aliceblue;
+    color: rgb(114, 114, 114);
+    text-align: center;
+
+}
+
+aside img {
+    width: 150px;
+    height: auto;
+
 }
