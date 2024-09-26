@@ -73,7 +73,7 @@ aside img {
 }
 
 footer {
+    border-top: 3px solid green;
     margin-top: 25px;
-    border-top: 2px solid rgb(63, 238, 141);
     text-align: center;
 }
