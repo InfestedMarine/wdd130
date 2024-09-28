@@ -57,7 +57,7 @@ p {
 }
 
 aside {
-    width: 190px;
+    width: 300px;
     margin: 1px; 
     border: 5px solid rgba(0, 0, 0, 0.966);
     padding: 20px;
@@ -68,8 +68,8 @@ aside {
 }
 
 aside img {
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: 200px;
 }
 
 footer {
