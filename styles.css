@@ -17,14 +17,14 @@ nav {
 }
 
 nav a {
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #70161E;
     padding: 10px;
     display: block;
     width: fit-content;
-    background-color: gold;
+    background-color: #596F62;
     border-style: outset;
     border-width: 5px;
-    border-color: rgb(252, 240, 174);
+    border-color: #7EA16B;
 }
 
 h1 {
@@ -80,3 +80,23 @@ footer {
     border-right: 0;
     border-top: 2px solid rgb(0, 0, 0);
 }
+
+primary-color {
+    color:#53A548;
+}
+
+secondary-color {
+    color:#EEE82C;
+}
+
+accent1-color {
+    color: #EEE82C;
+}
+
+accent2-color {
+    color:#19381F
+
+    /*https://coolors.co/19381f-eee82c-91cb3e-53a54*/
+}
+
+h1, h2, h3 ,h4 ,h5 , h6 { font-family: "Roboto Condensed", sans-serif;}
