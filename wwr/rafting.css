@@ -3,13 +3,6 @@ h1 {
     position: absolute;
 }
 
-article {
-    position: absolute;
-}
-
-
-
-
 .hero img {
     display: block;
     width: 400px;
@@ -19,3 +12,26 @@ article {
 footer {
     text-decoration: none;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+primary-color {
+    color:#B5B344;
+}
+
+secondary-color {
+    color:#212E14;
+}
+
+accent1-color {
+    color: #94ECBE;
+}
+
+accent2-color {
+    color:#1A1F16;
+    
+}
+
+https://coolors.co/19381f-eee82c-91cb3e-53a54*/
