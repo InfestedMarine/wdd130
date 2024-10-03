@@ -1,0 +1,21 @@
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+
+
+
+.hero img {
+    display: block;
+    width: 400px;
+    height: auto;
+}
+
+footer {
+    text-decoration: none;
+}
