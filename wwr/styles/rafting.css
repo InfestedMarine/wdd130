@@ -19,7 +19,8 @@ body img {
     margin: 0 auto;
 }
 
-nav a {
+
+nav li {
     box-shadow: 0 0 10px #70161E;
     padding: 10px;
     display: block;
@@ -34,12 +35,22 @@ nav a {
 .hero img {
     display: block;
     width: 400px;
-    height: auto;   
+    height: auto;
+
+}
+
+.gridPattern {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
 }
 
 .sociallinks img {
     width: 32px;
     height: 32px;
+    
+
 
 }
 
