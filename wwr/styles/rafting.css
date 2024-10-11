@@ -4,7 +4,7 @@
 header {
 	margin: 1rem auto;
 	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
+	grid-template-columns:repeat(3, 1fr);
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
@@ -31,6 +31,11 @@ nav li {
     border-color: #7EA16B;
 }
 
+figure {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
 
 .hero img {
     display: block;
@@ -50,12 +55,13 @@ nav li {
     width: 32px;
     height: 32px;
     
-
-
 }
 
 footer {
     text-decoration: none;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
