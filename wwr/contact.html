@@ -25,47 +25,58 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <div class="hero">
-            <article>
-                <h1>Golden Mountain</h1>
-                <img src ="images/happy.jpg" alt="happy employee photo">
-                <P>Our dedication to fun and safe family trip!</P>
-            </article>
-
-            <section>
-                <h2>History</h2>
-                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-            </section>
-            <section class="gridPattern">
-                <h2>ADVENTURE IN HELL AWAITS YOU</h2>
-                <figure>
-                    <img src ="images/fun1.jpg"  alt="fun image">
-                    <figcaption>Adventure between the mountains</figcaption>
-                </figure>
-                <figure>
-                    <img src ="images/fun2.jpg"  alt="fun image">
-                    <figcaption>Rocky slide</figcaption>
-                </figure>
-                <figure>
-                    <img src ="images/fun3.jpg"  alt="fun image">
-                    <figcaption>Through the frozen waters</figcaption>
-                </figure>
-                <figure>
-                   <img src ="images/fun4.jpg"  alt="fun image">
-                   <figcaption>Journey through turbulant waters</figcaption>
-                </figure>
-                <figure>
-                    <img src ="images/fun5.jpg"  alt="fun image">  
-                    <figcaption>Solo adventure</figcaption>
-                </figure>
-
-            </section>
-            </div>
-
-
-
-        </main>
+            <main>
+                <h2>Contact Us</h2>
+                
+                <!-- Company Information -->
+                <section id="company-info">
+                    <h3>Our Location</h3>
+                    <p>Address: 123 Rafting River Rd, Rapidsville, RS 54321</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: info@raftingcompany.com</p>
+                    <h4>Find Us Here:</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0858954741094!2d-122.4782558849823!3d37.819928979751675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858157e0f74011%3A0x9286a2fe81b6d23a!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1635786482024!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+        
+                <!-- Employee Profiles -->
+                <section id="team">
+                    <h3>Meet Our Team</h3>
+                    <div class="employee-profile">
+                        <img src="images/employesteve.png" alt="Profile of steve">
+                        <figcaption>Steve - Manager</figcaption>
+                    </div>
+                </section>
+        
+                <!-- Contact Form -->
+                <section id="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form action="submit_form.php" method="post">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <p>Purpose of Message:</p>
+                        <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry">
+                        <label for="general-inquiry">General Inquiry</label><br>
+        
+                        <input type="radio" id="reservation-question" name="purpose" value="reservation-question">
+                        <label for="reservation-question">Reservation Question</label><br>
+        
+                        <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion">
+                        <label for="website-suggestion">Website Suggestion</label><br>
+        
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+        
+                        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
+            </main>
         <footer>
             <nav class="sociallinks">
                 <a href="https://facebook.com">
