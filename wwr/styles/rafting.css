@@ -84,3 +84,20 @@ accent2-color {
     color:#1A1F16;
     
 }
+
+.employee-profile { 
+    display: flex;          
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+    text-align: center;
+    max-width: 200px;  
+    width: 100%;        
+    margin: 20px auto;  
+    text-align: center; 
+}
+
+.employee-profile img {
+    width: 200px; 
+    height: auto; 
+}
