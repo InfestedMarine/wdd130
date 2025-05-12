@@ -14,12 +14,15 @@ main img {
 
 nav {
     padding: 5px;
+    display: flex;
+    padding-bottom: 10px;
+    text-align: center;
+    display: block;
 }
 
 nav a {
     box-shadow: 0 0 10px #70161E;
     padding: 10px;
-    display: block;
     width: fit-content;
     background-color: #596F62;
     border-style: outset;
