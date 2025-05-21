@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+/* Define CSS variables */
+:root {
+    --primary-color: #B5B344;
+    --secondary-color: #212E14;
+    --accent1-color: #94ECBE;
+    --accent2-color: #1A1F16;
+}
+
 header {
 	margin: 1rem auto;
 	display: grid;
-	grid-template-columns:repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
@@ -12,6 +22,8 @@ header {
 
 body {
     text-align: center;
+    color: var(--primary-color);
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 body img {
@@ -19,16 +31,16 @@ body img {
     margin: 0 auto;
 }
 
-
 nav li {
     box-shadow: 0 0 10px #70161E;
     padding: 2px;
     display: block;
     width: fit-content;
-    background-color: #596F62;
+     background-color: #596F62;
     border-style: outset;
     border-width: 5px;
-    border-color: #7EA16B;
+     border-color: #7EA16B;
+    color: var(--primary-color);
 }
 
 figure {
@@ -36,53 +48,34 @@ figure {
     border: 2px solid black;
 }
 
-
 .hero img {
     display: block;
     width: 400px;
     height: auto;
-
 }
 
 .gridPattern {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    
 }
 
 .sociallinks img {
     width: 32px;
     height: 32px;
-    
 }
 
 footer {
     text-decoration: none;
-    display: flex;
+    display: block;
     justify-content: end;
     padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto Condensed", sans-serif;
-}
-
-primary-color {
-    color:#B5B344;
-}
-
-secondary-color {
-    color:#212E14;
-}
-
-accent1-color {
-    color: #94ECBE;
-}
-
-accent2-color {
-    color:#1A1F16;
-    
 }
 
 .employee-profile { 
@@ -94,7 +87,6 @@ accent2-color {
     max-width: 200px;  
     width: 100%;        
     margin: 20px auto;  
-    text-align: center; 
 }
 
 .employee-profile img {
