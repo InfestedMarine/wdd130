@@ -67,7 +67,7 @@ figure {
 
 footer {
     text-decoration: none;
-    display: block;
+    display: flex;
     justify-content: end;
     padding: 20px;
     background-color: var(--primary-color);
