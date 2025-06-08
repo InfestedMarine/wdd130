@@ -5,7 +5,7 @@
 
 /* Define CSS variables */
 :root {
-    --primary-color: #B5B344;
+    --primary-color: #565631;
     --secondary-color: #212E14;
     --accent1-color: #94ECBE;
     --accent2-color: #1A1F16;
@@ -32,15 +32,13 @@ body img {
 }
 
 nav li {
-    box-shadow: 0 0 10px #70161E;
+    box-shadow: 0 0 10px #000000;
     padding: 2px;
     display: block;
     width: fit-content;
-     background-color: #596F62;
+    background-color: #ffffff;
     border-style: outset;
     border-width: 5px;
-     border-color: #7EA16B;
-    color: var(--primary-color);
 }
 
 figure {
@@ -48,11 +46,17 @@ figure {
     border: 2px solid black;
 }
 
-.hero img {
-    display: block;
-    width: 400px;
-    height: auto;
+.hero {
+    background-image: url('/wwr/images/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+     height: 500px;
+    
 }
+
+
 
 .gridPattern {
     display: grid;
