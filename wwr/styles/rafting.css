@@ -26,7 +26,7 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-.hero-img{
+.hero {
     width: 100%;
     height: 400px; 
     background-image: url('wwr/images/hero.jpg');
