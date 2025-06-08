@@ -26,10 +26,20 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-body img {
-    display: block;
-    margin: 0 auto;
+.hero-img{
+    width: 100%;
+    height: 400px; 
+    background-image: url('/wwr/images/hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
+
+.hero-text {
+    text-align: center;
+}
+
 
 nav li {
     box-shadow: 0 0 10px #000000;
@@ -45,17 +55,6 @@ figure {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 2px solid black;
 }
-
-.hero {
-    background-image: url('/wwr/images/hero.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-     height: 600px;
-    
-}
-
 
 
 .gridPattern {
